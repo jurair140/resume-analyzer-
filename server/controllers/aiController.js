@@ -127,7 +127,6 @@ Required JSON fields:
       throw lastError || new Error("All model attempts failed");
     }
 
-    console.log('AI Response:', aiResponse);
 
     // Clean the response
     let cleanedResponse = aiResponse.trim();
